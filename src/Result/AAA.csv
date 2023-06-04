@@ -1,0 +1,28 @@
+AAA,progname,nmon
+AAA,command,nmon -ft -c 1000 -s 5 -m /root/workspace/nmon_work
+AAA,version,16g
+AAA,disks_per_line,150
+AAA,max_disks,256,set by -d option
+AAA,disks,3,
+AAA,host,VM-12-13-centos
+AAA,user,root
+AAA,OS,Linux,3.10.0-1160.62.1.el7.x86_64,#1 SMP Tue Apr 5 16:57:59 UTC 2022,x86_64
+AAA,runname,VM-12-13-centos
+AAA,time,10:47.38
+AAA,date,04-JUN-2023
+AAA,interval,5
+AAA,snapshots,1000
+AAA,cpus,2
+AAA,x86,VendorId,GenuineIntel
+AAA,x86,ModelName,Intel(R) Xeon(R) Gold 6133 CPU @ 2.50GHz
+AAA,x86,MHz,2494.142
+AAA,x86,bogomips,4988.28
+AAA,x86,ProcessorChips,1
+AAA,x86,Cores,2
+AAA,x86,hyperthreads,0
+AAA,x86,VirtualCPUs,2
+AAA,proc_stat_variables,8
+AAA,boottime,10:56 PM 11-May-2023
+AAA,note0, Warning - use the UNIX sort command to order this file before loading into a spreadsheet
+AAA,note1, The First Column is simply to get the output sorted in the right order
+AAA,note2, The T0001-T9999 column is a snapshot number. To work out the actual time; see the ZZZ section at the end
