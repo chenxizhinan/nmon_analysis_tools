@@ -73,6 +73,10 @@ def multi_line_chart(title: str, x_title: str, x_series: list, y_title: str, y_s
         title_opts=opts.TitleOpts(title=title),
         legend_opts=opts.LegendOpts(type_='plain', orient='vertical', pos_right='0%'),
         datazoom_opts=[opts.DataZoomOpts(type_="inside")],  # inside表示内部缩放，slider表示滑动窗口
+        tooltip_opts=opts.TooltipOpts(
+            trigger="axis",
+            axis_pointer_type="cross",
+        ),
         xaxis_opts=opts.AxisOpts(
             name=x_title,
             axislabel_opts=opts.LabelOpts(rotate=-70),
